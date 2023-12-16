@@ -3,7 +3,6 @@ package com.example.taskslist.data.database
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import java.time.LocalDateTime
 @Entity(tableName = "TasksDb")
 data class Task(
     @PrimaryKey(autoGenerate = true)
